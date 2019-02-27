@@ -1,0 +1,1 @@
+﻿vm虚拟机启动报`The VMware Authorization Service is not running`错误。修改方法，使用管理员身份运行VM即可。
