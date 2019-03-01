@@ -1,4 +1,16 @@
-﻿##### 1. 从openoffice官网(http://www.openoffice.org/download/)下载linux相应的openoffice安装包(安装包有deb和rpm,linux BIT 对应32bit和64bit)。
+﻿---
+title: BigDecimal小数保留两位，末尾为0的小数保留整数位
+date: 2018-01-31 13:57:00 +0800 
+layout: post
+permalink: /blog/2018/01/31/BigDecimal小数保留两位，末尾为0的小数保留整数位.html
+categories:
+  - 问题一箩筐
+tags:
+  - JAVA
+  - BigDecimal
+---
+
+##### 1. 从openoffice官网(http://www.openoffice.org/download/)下载linux相应的openoffice安装包(安装包有deb和rpm,linux BIT 对应32bit和64bit)。
 ##### 2. 安装包名 OOo_3.3.0_Linux_x86-64_install-rpm-wJRE_zh-CN.tar.gz
 ##### 3. 安装openoffice
 将安装包放置linux中(例如放在openOffice文件夹下)
