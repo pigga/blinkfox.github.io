@@ -1,4 +1,15 @@
-﻿Maven pom.xml保存
+﻿---
+title: maven-assembly-plugin报错
+date: 2018-08-30 13:57:00 +0800
+layout: post
+permalink: /blog/2018/08/30/maven-assembly-plugin报错.html
+categories:
+  - JAVA
+tags:
+  - JAVA
+  - Maven
+---
+Maven pom.xml保存
 ```
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-assembly-plugin:2.5.5:single (default) on project ycsb: Failed to create assembly: Artifact: com.yahoo.ycsb:riak-binding:jar:0.3.1-RC1-SNAPSHOT (included by module) does not have an artifact with a file. Please ensure the package phase is run before the assembly is generated. -> [Help 1]
 org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-assembly-plugin:2.5.5:single (default) on project ycsb: Failed to create assembly: Artifact: com.yahoo.ycsb:riak-binding:jar:0.3.1-RC1-SNAPSHOT (included by module) does not have an artifact with a file. Please ensure the package phase is run before the assembly is generated.

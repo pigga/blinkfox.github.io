@@ -1,4 +1,14 @@
-# Linux打包Python文件为RPM格式
+---
+title: Linux打包Python文件为RPM格式
+date: 2018-12-21 13:57:00 +0800
+layout: post
+permalink: /blog/2018/12/21/Linux下打包Python的rpm包.html
+categories:
+  - Linux
+tags:
+  - Linux
+  - Rpm
+---
 
 花费了将近一周的时间,才把rpm打包弄好.不能说已经了然于胸,但至少踩过了很多坑.接下来就顺顺在打包过程中的二三事.刚开始接到任务的时候,一脸懵逼.
 ![1.jpeg](https://cdn.nlark.com/yuque/0/2018/jpeg/228600/1545364635210-c542e2ba-aa01-4825-990f-b2c14ee81201.jpeg)

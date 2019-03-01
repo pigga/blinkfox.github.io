@@ -1,4 +1,14 @@
-﻿#### **CentOS上安装Docker**
+﻿---
+title: CentOS安装Docker
+date: 2018-08-28 13:57:00 +0800
+layout: post
+permalink: /blog/2018/08/28/CentOS安装Docker.html
+categories:
+  - Docker
+tags:
+  - Docker
+---
+#### **CentOS上安装Docker**
 
 ##### 前置条件：
 64-bit 系统<br/>
