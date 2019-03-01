@@ -4,10 +4,11 @@ date: 2018-08-30 13:57:00 +0800
 layout: post
 permalink: /blog/2018/08/30/maven-assembly-plugin报错.html
 categories:
-  - JAVA
+  - 问题一箩筐
 tags:
   - JAVA
   - Maven
+  - 问题一箩筐
 ---
 Maven pom.xml保存
 ```
