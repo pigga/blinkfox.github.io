@@ -1,4 +1,16 @@
-﻿在Eclipse中使用try,catch,finally时会遇到警告<br/>
+﻿---
+title: Finally使用时报"finally-block-does-not-complete-normally"
+date: 2018-06-21 13:57:00 +0800
+layout: post
+permalink: /blog/2018/06/21/Finally使用时报"finally-block-does-not-complete-normally".html
+categories:
+  - 问题一箩筐
+tags:
+  - JAVA
+  - 异常处理
+---
+
+在Eclipse中使用try,catch,finally时会遇到警告<br/>
 写道<br/>
 ```
 finally block does not complete normally

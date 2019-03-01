@@ -4,7 +4,7 @@ date: 2018-08-28 13:57:00 +0800
 layout: post
 permalink: /blog/2018/08/28/CentOS安装Docker.html
 categories:
-  - Docker
+  - 问题一箩筐
 tags:
   - Docker
 ---

@@ -1,4 +1,15 @@
-﻿Mysql中group时报sql_mode的解决办法
+﻿---
+title: mysql中group报sql_mode错误解决方案
+date: 2018-02-09 13:57:00 +0800
+layout: post
+permalink: /blog/2018/02/09/mysql中group报sql_mode错误解决方案.html
+categories:
+  - 问题一箩筐
+tags:
+  - MySQL
+---
+
+Mysql中group时报sql_mode的解决办法
 1.
 ```
 vi /etc/my.cnf(Windows下是my.ini) 在[mysqld]下添加 

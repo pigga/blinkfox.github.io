@@ -1,4 +1,16 @@
-﻿```
+﻿---
+title: BootStrap如何支持多模态框弹窗
+date: 2018-07-06 13:57:00 +0800
+layout: post
+permalink: /blog/2018/07/06/BootStrap如何支持多模态框弹窗.html
+categories:
+  - 问题一箩筐
+tags:
+  - JS
+  - 模态框
+---
+
+```
 $(document).on('show.bs.modal', '.modal', function(event) {
     $(this).appendTo($('body'));
 }).on('shown.bs.modal', '.modal.in', function(event) {

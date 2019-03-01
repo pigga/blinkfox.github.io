@@ -1,4 +1,15 @@
-﻿在执行某一操作时，意外发现自己定义的异常，无法被外面的Controller catch到。<br/>
+﻿---
+title: Spring内异常-application-exception-overridden-by-commit-exception
+date: 2018-08-10 13:57:00 +0800
+layout: post
+permalink: /blog/2018/08/10/Spring内异常-application-exception-overridden-by-commit-exception.html
+categories:
+  - 问题一箩筐
+tags:
+  - Spring
+---
+
+在执行某一操作时，意外发现自己定义的异常，无法被外面的Controller catch到。<br/>
 追查发现在service内是可以正常打印异常信息，但外层Controller仅能拿到一个事务回滚的roolback异常。<br/>
 仔细查看错误信息：
 ```
