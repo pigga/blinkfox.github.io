@@ -18,7 +18,7 @@ tags:
 
 最近在Python内使用单元测试时,发现了大概三种实现.在这里记录一下,以待后续使用
 [mock官网地址](https://docs.python.org/3/library/unittest.mock.html)
-###### 1. [mox]使用StubOutWithMock
+##### 1. [mox]使用StubOutWithMock
 ```
 from mox3 import mox
 
@@ -59,7 +59,7 @@ compute_api.API.create_xen_pool(mox.IgnoreArg(), mox.IgnoreArg())\
 以上代码的`create_xen_pool`方法内的参数个数与实际的参数个数一致.<br/>
 
 **该种方法存在问题**:若想测试的方法内,同时调用了多次同一个方法.则无法使用该方式.`self.mox.StubOutWithMock(compute_api.API, 'create_xen_pool')`mock出来的方法,只能被一次有效调用.
-###### 2. [stub]使用stubs
+##### 2. [stub]使用stubs
 ```
     def test_disable_host(self):
         def disable_xen_host(self, context, physical_host, host_uuid):
@@ -108,7 +108,7 @@ self.stubs.Set(objects.XenHost, 'get_host_by_filter',
 _注意_:<br/>
 在`self.fill_mock_host_enabled`方法内的入参个数,要与实际要mock的`get_host_by_filter`方法要求的参数个数一样.
 
-###### 3. [mock]使用mock
+##### 3. [mock]使用mock
 该方法是我主要推荐的方法,最主要是因为写着简单,直接上示例
 ```
 import mock
@@ -132,7 +132,7 @@ import mock
 如上,看着上面的代码有没有感觉很清新啊,基本内部没有什么其他的操作.唯一干的事情就是写上具体mock方法的返回值.<br/>
 不过,需要注意的是.该方法使用的是装饰器,所以要求mock.patch的顺序与方法内的入参顺序是相反的.其他的就没什么了.你就可以愉快的玩耍了.
 
-###### 额外福利
+##### 额外福利
 [如何来mock`__init__`方法内的方法.](https://stackoverflow.com/questions/54899511/how-to-mock-the-method-which-was-called-by-the-method-of-init/54899760#54899760)
 ```
 import a
