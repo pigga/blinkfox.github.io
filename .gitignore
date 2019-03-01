@@ -1,8 +1,9 @@
 *.bak
 *.pyc
 *.log
-/venv/
-/.idea/
+venv/
+.idea/
+target/
 log.txt
-/build/
-/dist/
+build/
+dist/
