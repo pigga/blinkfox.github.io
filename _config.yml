@@ -1,7 +1,7 @@
 # Site settings 配置站点
 title: 'Yannis的个人博客'
 description: 'Yannis的个人博客，专注于平时遇到问题的整理及总结。可能是他人的源码，可能有自己的感悟及灵机一动。不求上天入地，只求兵来将挡水来土掩。'
-keyword: '陈彦青, 陈彦青的独立博客, 陈彦青的博客, 后端, 后端开发, 后端博客, javascript, vuejs, Java, Python, Yannis, YannisChen'
+keyword: 'Yannis, YannisChen, 后端, 后端开发, 后端博客, javascript, vuejs, Java, Python'
 url: 'http://yannischen.cn' # your host
 
 # if you don't need baseurl, you should leave this value blank.
@@ -17,7 +17,7 @@ footer:
   since: 2012
 
 # Author 配置博主信息
-author: '陈彦青'
+author: 'Yannis'
 nickname: 'Yannis'
 bio: '后端开发者，热爱技术，简单乐观爱创造'
 avatar: '/assets/img/profile.png'
