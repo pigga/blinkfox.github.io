@@ -1,4 +1,15 @@
-﻿在Mysql下使用Group by查询的时候会出现如下错误：
+﻿---
+title: [转]关于BETA、RC、ALPHA、Release、GA等版本号的意义
+date: 2017-03-01 13:57:00 +0800 
+layout: post
+permalink: /blog/2017/03/01/sql_mode=only_full_group_by引起group-by查询报错问题.html
+categories:
+  - 问题一箩筐
+tags:
+  - MySQL
+---
+
+在Mysql下使用Group by查询的时候会出现如下错误：
 ```
 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'GT_SIGNATURE_STU.SINGN_STU_ID' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
 ```

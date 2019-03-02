@@ -1,4 +1,15 @@
-﻿在web请求中可能涉及到ajax的get请求，参数为中文的情况。在Chrome或者Firefox下，请求正常，但IE下返回结果不对。通过比对发现，在IE浏览器下的请求参数出现了乱码。
+﻿---
+title: Ajax的get请求在IE浏览器中乱码问题的解决方案
+date: 2016-12-30 13:57:00 +0800 
+layout: post
+permalink: /blog/2016/12/30/Ajax的get请求在IE浏览器中乱码问题的解决方案.html
+categories:
+  - 问题一箩筐
+tags:
+  - JS
+---
+
+在web请求中可能涉及到ajax的get请求，参数为中文的情况。在Chrome或者Firefox下，请求正常，但IE下返回结果不对。通过比对发现，在IE浏览器下的请求参数出现了乱码。
  
 **解决方案**：
 ```
