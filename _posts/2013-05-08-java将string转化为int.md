@@ -1,4 +1,17 @@
-﻿**问题一**：如何将数字类型的字符串转化为int类型。因为之前对该部分认识不够清晰，特作分析。
+﻿---
+title: java将string转化为int
+date: 2013-05-08 13:57:00 +0800 
+layout: post
+permalink: /blog/2013/05/08/java将string转化为int.html
+categories:
+  - 问题一箩筐
+tags:
+  - JAVA
+  - String
+  - int
+---
+
+**问题一**：如何将数字类型的字符串转化为int类型。因为之前对该部分认识不够清晰，特作分析。
 ```
 String str = "100";
 Integer.parseInt(str);

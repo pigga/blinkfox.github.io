@@ -1,4 +1,16 @@
-﻿同步windows服务器软件至linux服务器实现<br/>
+﻿---
+title: windows文件同步到linux
+date: 2013-11-20 13:57:00 +0800 
+layout: post
+permalink: /blog/2013/11/20/windows文件同步到linux.html
+categories:
+  - Linux
+tags:
+  - rsync
+  - 同步
+---
+
+同步windows服务器软件至linux服务器实现<br/>
 ##### 1、  一般linux上默认安装有rsync软件
 ###### 一．查看及安装
 **查看是否安装rsync**<br/>

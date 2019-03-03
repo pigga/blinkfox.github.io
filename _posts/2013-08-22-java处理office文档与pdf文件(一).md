@@ -1,4 +1,16 @@
-﻿需求说明：<br/>
+﻿---
+title: java处理office文档与pdf文件(一)
+date: 2013-08-22 13:57:00 +0800 
+layout: post
+permalink: /blog/2013/08/22/java处理office文档与pdf文件(一).html
+categories:
+  - 问题一箩筐
+tags:
+  - JAVA
+  - POI
+---
+
+需求说明：<br/>
 用户可以上传word,excel,ppt,pdf文件。在页面能够预览该文件，并可以通过搜索，找到对应的文件记录。<br/>
 使用技术：<br/>
 通过jacob将office转化为html，使用poi进行文件提取；<br/>

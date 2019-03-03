@@ -1,4 +1,16 @@
-﻿该部分主要内容：文件上传，以及office文件和pdf的html处理，以及提取text
+﻿---
+title: java处理office文档与pdf文件(二)
+date: 2013-08-22 13:57:00 +0800 
+layout: post
+permalink: /blog/2013/08/22/java处理office文档与pdf文件(二).html
+categories:
+  - 问题一箩筐
+tags:
+  - JAVA
+  - POI
+---
+
+该部分主要内容：文件上传，以及office文件和pdf的html处理，以及提取text
 ```
 // 根据服务器的文件保存地址和原文件名创建目录文件全路径
 		File file = this.getFile();

@@ -1,4 +1,16 @@
-﻿jquery实现。多级checkbox的联动问题解决办法。注意引入jquery啊。效果图如下：图片不知道怎么编辑进来，已经上传。可以看看样子。
+﻿---
+title: jquery 多个checkbox的联动选择
+date: 2012-08-24 13:57:00 +0800 
+layout: post
+permalink: /blog/2012/08/24/jquery-多个checkbox的联动选择.html
+categories:
+  - 问题一箩筐
+tags:
+  - JQuery
+  - checkbox
+---
+
+jquery实现。多级checkbox的联动问题解决办法。注意引入jquery啊。效果图如下：图片不知道怎么编辑进来，已经上传。可以看看样子。
 ```
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">

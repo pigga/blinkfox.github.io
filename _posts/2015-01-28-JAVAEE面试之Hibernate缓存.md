@@ -1,4 +1,16 @@
-﻿Hibernate缓存分为两类：包括一级缓存(session级别)、二级缓存(sessionFactory级别)以及查询缓存。<br/>
+﻿---
+title: JAVAEE面试之Hibernate缓存
+date: 2015-01-28 13:57:00 +0800 
+layout: post
+permalink: /blog/2015/01/28/JAVAEE面试之Hibernate缓存.html
+categories:
+  - JAVA
+tags:
+  - Hibernate
+  - 缓存
+---
+
+Hibernate缓存分为两类：包括一级缓存(session级别)、二级缓存(sessionFactory级别)以及查询缓存。<br/>
 ##### 一、Session缓存（又称作事务缓存）：<br/>
 缓存范围：缓存只能被当前Session对象访问。缓存的生命周期依赖于Session的生命周期，当Session被关闭后，缓存也就结束生命周期。这就是一级缓存。<br/>
 Hibernate一些与一级缓存相关的操作（时间点）：<br/>

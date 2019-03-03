@@ -1,4 +1,16 @@
-﻿最近在使用Maven时，由于对其不太熟的原因，老是出问题。有问题就要总结啦。
+﻿---
+title: Error configuring application listener of class orgspringframeworkwebcontext
+date: 2013-02-26 13:57:00 +0800 
+layout: post
+permalink: /blog/2013/02/26/Error-configuring-application-listener-of-class-orgspringframeworkwebcontext.html
+categories:
+  - 问题一箩筐
+tags:
+  - JAVA
+  - Spring
+---
+
+最近在使用Maven时，由于对其不太熟的原因，老是出问题。有问题就要总结啦。
 问题：
 ```
  org.apache.catalina.core.StandardContext listenerStart

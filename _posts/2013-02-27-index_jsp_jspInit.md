@@ -1,4 +1,16 @@
-﻿项目运行时报错：
+﻿---
+title: index jsp jspInit
+date: 2013-02-27 13:57:00 +0800 
+layout: post
+permalink: /blog/2013/02/27/index_jsp_jspInit.html
+categories:
+  - 问题一箩筐
+tags:
+  - JAVA
+  - JSP
+---
+
+项目运行时报错：
 ```
 java.lang.NullPointerException  at org.apache.jsp.index_jsp._jspInit(index_jsp.java:22)
 ```

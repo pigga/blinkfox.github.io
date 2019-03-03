@@ -1,4 +1,15 @@
-﻿234390216 的留下学习 原文地址 http://haohaoxuexi.iteye.com/blog/1594391
+﻿---
+title: oracle 闪回操作(flashback)
+date: 2012-12-27 13:57:00 +0800 
+layout: post
+permalink: /blog/2012/12/27/oracle-闪回操作(flashback).html
+categories:
+  - Oracle
+tags:
+  - 闪回
+---
+
+234390216 的留下学习 原文地址 http://haohaoxuexi.iteye.com/blog/1594391
 
 
  Oracle的闪回功能可以在对数据库进行不完全恢复的情况下，对某一个指定的表进行恢复。闪回数据库是进行时间点恢复的新方法，它能够快速将Oracle恢复到以前的时间，以更正由于逻辑数据损坏或用户错误而引起的问题。当需要恢复时，可以将数据库恢复到错误前的时间点，并且只恢复改变的数据块。<br/>

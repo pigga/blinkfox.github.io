@@ -1,4 +1,16 @@
-﻿```
+﻿---
+title: javaScript 实时获取系统时间
+date: 2012-05-03 13:57:00 +0800 
+layout: post
+permalink: /blog/2012-05-03-javaScript-实时获取系统时间.html
+categories:
+  - 问题一箩筐
+tags:
+  - JS
+  - 系统时间
+---
+
+```
 <script language="javascript" type="text/javascript">
 
 	$(document).ready(function() {

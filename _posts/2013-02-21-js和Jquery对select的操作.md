@@ -1,4 +1,16 @@
-﻿jQuery获取Select选择的Text和Value:<br/>
+﻿---
+title: js和Jquery对select的操作
+date: 2013-02-21 13:57:00 +0800 
+layout: post
+permalink: /blog/2013-02-21-js和Jquery对select的操作.html
+categories:
+  - 问题一箩筐
+tags:
+  - JS
+  - Select
+---
+
+jQuery获取Select选择的Text和Value:<br/>
 语法解释：
 ```
 1. $("#select_id").change(function(){//code...});   //为Select添加事件，当选择其中一项时触发

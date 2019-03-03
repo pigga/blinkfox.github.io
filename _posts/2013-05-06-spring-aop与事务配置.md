@@ -1,4 +1,17 @@
-﻿以下配置基于spring 1x 
+﻿---
+title: spring aop与事务配置
+date: 2013-05-06 13:57:00 +0800 
+layout: post
+permalink: /blog/2013/05/06/spring-aop与事务配置.html
+categories:
+  - Spring
+tags:
+  - JAVA
+  - Spring
+  - AOP
+---
+
+以下配置基于spring 1x 
 
 Xml代码  
 ```

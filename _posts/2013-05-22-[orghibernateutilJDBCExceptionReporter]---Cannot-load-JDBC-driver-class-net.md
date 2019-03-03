@@ -1,4 +1,17 @@
-﻿今天在项目开发过程中遇到的比较诡异的问题之
+﻿---
+title: [orghibernateutilJDBCExceptionReporter]---Cannot-load-JDBC-driver-class-net
+date: 2013-05-22 13:57:00 +0800 
+layout: post
+permalink: /blog/2013/05/22/[orghibernateutilJDBCExceptionReporter]---Cannot-load-JDBC-driver-class-net.html
+categories:
+  - 问题一箩筐
+tags:
+  - JAVA
+  - hibernate
+  - tomcat
+---
+
+今天在项目开发过程中遇到的比较诡异的问题之
 ```
 [org.hibernate.util.JDBCExceptionReporter] - Cannot load JDBC driver class 'net.sourceforge.jtds.jdbc.Driver'。
 ```

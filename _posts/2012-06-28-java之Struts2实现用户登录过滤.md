@@ -1,4 +1,17 @@
-﻿在项目中难免遇到防止用户非法登录的问题。<br/>
+﻿---
+title: java之Struts2实现用户登录过滤
+date: 2012-06-28 13:57:00 +0800 
+layout: post
+permalink: /blog/2012/06/28/java之Struts2实现用户登录过滤.html
+categories:
+  - 问题一箩筐
+tags:
+  - JAVA
+  - Struts2
+  - 登录
+---
+
+在项目中难免遇到防止用户非法登录的问题。<br/>
 处理方式，在Web.xml中增加过滤器的配置
 ```
 <!-- 用户权限过滤器配置 -->

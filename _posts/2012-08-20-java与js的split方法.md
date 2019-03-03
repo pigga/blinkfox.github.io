@@ -1,4 +1,17 @@
-﻿最近在做项目时发现几个问题
+﻿---
+title: java与js的split方法
+date: 2012-08-20 13:57:00 +0800 
+layout: post
+permalink: /blog/2012/08/20/java与js的split方法.html
+categories:
+  - 问题一箩筐
+tags:
+  - JAVA
+  - JS
+  - Split
+---
+
+最近在做项目时发现几个问题
 ###### 1、java与js的split方法的结果：<br/>
 使用java中的split()里面的参数为正则表达式，但是对“，”也支持。对|或者$均需使用\\进行转义。js不存在该问题。
 ###### 2、java与js的split之后的数组长度:<br/>

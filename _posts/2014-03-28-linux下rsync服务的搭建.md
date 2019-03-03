@@ -1,4 +1,15 @@
-﻿linux确认rsync的安装及服务开放<br/>
+﻿---
+title: linux下rsync服务的搭建
+date: 2014-03-28 13:57:00 +0800 
+layout: post
+permalink: /blog/2014/03/28/linux下rsync服务的搭建.html
+categories:
+  - Linux
+tags:
+  - rsync
+---
+
+linux确认rsync的安装及服务开放<br/>
 #### 1、查看是否安装rsync
 命令# rpm –qa | grep rsyn
 出现图示信息，表明已安装了rsync.

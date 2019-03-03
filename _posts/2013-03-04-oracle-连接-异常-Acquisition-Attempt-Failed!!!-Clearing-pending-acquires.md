@@ -1,4 +1,16 @@
-﻿出错代码
+﻿---
+title: oracle 连接 异常 Acquisition Attempt Failed!!! Clearing pending acquires
+date: 2013-03-04 13:57:00 +0800 
+layout: post
+permalink: /blog/2013/03/04/oracle-连接-异常-Acquisition-Attempt-Failed!!!-Clearing-pending-acquires.html
+categories:
+  - 问题一箩筐
+tags:
+  - JAVA
+  - Oracle
+---
+
+出错代码
 ```
 com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@1429b9f -- Acquisition Attempt Failed!!! Clearing pending acquires. 
 While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition 
