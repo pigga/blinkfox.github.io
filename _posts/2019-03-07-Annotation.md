@@ -111,6 +111,7 @@ Annotation时使用了@Inherited修饰）修饰，则其子类将自动被@Xxx�
 Repeatable 自然是可重复的意思。@Repeatable 是 Java 1.8 才加进来的，所以算是一个新的特性。<br/>
 什么样的注解会多次应用呢？通常是注解的值可以同时取多个。<br/>
 举个例子，一个人他既是程序员又是产品经理,同时他还是个画家.
+
 ```
 @interface Persons {
 	Person[] value();
@@ -133,6 +134,7 @@ public class SuperMan{
 ###### 注解的属性
 注解的属性也叫做成员变量。注解只有成员变量，没有方法。注解的成员变量在注解的定义中以“无形参的方
 法”形式来声明，其方法名定义了该成员变量的名字，其返回值定义了该成员变量的类型。
+
 ```
 @Retention(RetentionPolicy.RUNTIME)
 public @interface TestAnnotation {
