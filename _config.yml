@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://yannischen.cn/
+url: https://yannischen.cn
 date_format: "ordinal"
 title: 'Yannis的个人博客'
 subtitle: "Yannis的个人博客..."
@@ -17,7 +17,7 @@ side_bar_repo_limit: 5
 # ---------------- #
 author: Yannis
 organization: yannischen.cn
-organization_url: https://yannischen.cn/
+organization_url: https://yannischen.cn
 github_username: pigga
 location: Beijing, China
 email: piggachen@163.com
