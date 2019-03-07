@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://yannischen.cn
+url: https://yannischen.cn/
 date_format: "ordinal"
 title: 'Yannis的个人博客'
 subtitle: "Yannis的个人博客..."
