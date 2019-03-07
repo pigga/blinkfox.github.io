@@ -17,7 +17,7 @@ side_bar_repo_limit: 5
 # ---------------- #
 author: Yannis
 organization: yannischen.cn
-organization_url: http://yannischen.cn
+organization_url: https://yannischen.cn/
 github_username: pigga
 location: Beijing, China
 email: piggachen@163.com
@@ -66,7 +66,7 @@ paginate: 8
 lsi: false
 quiet: false
 excerpt_separator: "\n\n"
-permalink: /:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title.html
 gems:
     - jekyll-github-metadata
     - rouge
