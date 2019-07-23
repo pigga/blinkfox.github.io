@@ -111,6 +111,7 @@ Annotation时使用了@Inherited修饰）修饰，则其子类将自动被@Xxx�
 Repeatable 自然是可重复的意思。@Repeatable 是 Java 1.8 才加进来的，所以算是一个新的特性。<br/>
 什么样的注解会多次应用呢？通常是注解的值可以同时取多个。<br/>
 举个例子，一个人他既是程序员又是产品经理,同时他还是个画家.<br/>
+
 ```
 @interface Persons {
 	Person[] value();
@@ -144,6 +145,7 @@ public @interface TestAnnotation {
 ```
 上面的代码定义了`TestAnnotation`注解下的两个属性,`id`与`name`.<br/>
 但是在使用的时候也要同步的在注解内为对应的属性赋上值.
+
 ```
 @TestAnnotation(id = 2, name = "yannis")
 public class Demo {
@@ -154,6 +156,7 @@ public class Demo {
 ```
 **注意**，在注解中定义属性时它的类型必须是8种基本数据类型外加类、接口、注解及它们的数组。<br/>
 注解的属性可以有默认值,默认值使用default指定.
+
 ```
 @Retention(RetentionPolicy.RUNTIME)
 public @interface TestAnnotation {
@@ -163,17 +166,21 @@ public @interface TestAnnotation {
 }
 ```
 若是注解内的属性已经指明了默认值,则使用他们的时候可以不需要在注解上为对应的属性赋值.
+
 ```
 @TestAnnotation
 ```
+
 ```
 @TestAnnotation()
 ```
+
 ```
 @TestAnnotation(id = 2, name = "yannis")
 ```
 如上三种皆可以.<br/>
 _特殊情况_,若注解内仅有一个属性`value`,则在使用的时候,可以不指定属性名.
+
 ```
 @Retention(RetentionPolicy.RUNTIME)
 public @interface TestAnnotation {
@@ -195,20 +202,24 @@ memberValues 这个 Map 中索引出对应的值。而 memberValues 的来源是
 ##### 注解的使用
 注解在创建完之后,永远不会主动干预代码行为,所以为了更好的利用注解,需要使用反射,获取相关注解.
 首先可以通过 Class 对象的 isAnnotationPresent() 方法判断它是否应用了某个注解
+
 ```
 public boolean isAnnotationPresent(Class<? extends Annotation> annotationClass) {}
 ```
 然后通过 getAnnotation() 方法来获取 Annotation 对象。
+
 ```
 public <A extends Annotation> A getAnnotation(Class<A> annotationClass) {}
 ```
 或者是 getAnnotations() 方法。
+
 ```
 public Annotation[] getAnnotations() {}
 ```
 前一种方法返回指定类型的注解，后一种方法返回注解到这个元素上的所有注解。
 
 如果获取到的 Annotation 如果不为 null，则就可以调用它们的属性方法了。比如
+
 ```
 @TestAnnotation
 public class Demo {
